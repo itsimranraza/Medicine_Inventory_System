@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="android:buttonStyle">@style/ColoredButton</item>
+    </style>
+
+    <style name="ColoredButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btn_colored</item>
+    </style>
+
+</resources>

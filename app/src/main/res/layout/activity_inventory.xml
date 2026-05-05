@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7FE"
+    android:padding="16dp"
+    tools:context=".InventoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/textUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome, Username"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp" />
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonSellMedicine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sell Medicine"
+                android:textColor="#1E88E5"
+                android:textSize="18sp"
+                android:backgroundTint="@android:color/transparent"
+                android:padding="16dp"
+                app:icon="@drawable/ic_sell"
+                app:iconGravity="textStart"
+                app:iconPadding="8dp"
+                app:iconTint="#1E88E5"
+                app:cornerRadius="0dp"
+                app:rippleColor="?attr/colorControlHighlight" />
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonManageMedicine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manage Medicines"
+                android:textColor="#1E88E5"
+                android:textSize="18sp"
+                android:backgroundTint="@android:color/transparent"
+                android:padding="16dp"
+                app:icon="@drawable/ic_manage"
+                app:iconGravity="textStart"
+                app:iconPadding="8dp"
+                app:iconTint="#1E88E5"
+                app:cornerRadius="0dp"
+                app:rippleColor="?attr/colorControlHighlight" />
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonCheckStock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Check Stock"
+                android:textColor="#1E88E5"
+                android:textSize="18sp"
+                android:backgroundTint="@android:color/transparent"
+                android:padding="16dp"
+                app:icon="@drawable/ic_stock"
+                app:iconGravity="textStart"
+                app:iconPadding="8dp"
+                app:iconTint="#1E88E5"
+                app:cornerRadius="0dp"
+                app:rippleColor="?attr/colorControlHighlight" />
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonCheckExpiry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Check Expiry"
+                android:textColor="#1E88E5"
+                android:textSize="18sp"
+                android:backgroundTint="@android:color/transparent"
+                android:padding="16dp"
+                app:icon="@drawable/ic_expiry"
+                app:iconGravity="textStart"
+                app:iconPadding="8dp"
+                app:iconTint="#1E88E5"
+                app:cornerRadius="0dp"
+                app:rippleColor="?attr/colorControlHighlight" />
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnChangePassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Change Password"
+                android:textColor="#1E88E5"
+                android:textSize="18sp"
+                android:backgroundTint="@android:color/transparent"
+                android:padding="16dp"
+                app:icon="@drawable/ic_password"
+                app:iconGravity="textStart"
+                app:iconPadding="8dp"
+                app:iconTint="#1E88E5"
+                app:cornerRadius="0dp"
+                app:rippleColor="?attr/colorControlHighlight" />
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="#FF5252">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:backgroundTint="@android:color/transparent"
+                android:padding="16dp"
+                app:icon="@drawable/ic_logout"
+                app:iconGravity="textStart"
+                app:iconPadding="8dp"
+                app:iconTint="#FFFFFF"
+                app:cornerRadius="0dp"
+                app:rippleColor="?attr/colorControlHighlight" />
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</ScrollView>

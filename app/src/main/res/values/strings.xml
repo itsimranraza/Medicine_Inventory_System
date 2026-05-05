@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MedicineInventory</string>
+    <string name="welcomeText">Welcome\nto the\nMedicine Inventory System</string>
+    <string name="loginAcc">Login Your Account</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="createAcc">Create Account</string>
+    <string name="signUp">Sign Up</string>
+    <string name="searchMedicine">Search Medicine</string>
+    <string name="sellMedicine">Sell Medicine</string>
+    <string name="manageMedicine">Manage Medicine</string>
+    <string name="checkStock">Check Stock</string>
+    <string name="checkExpiry">Check Expiry Levels</string>
+    <string name="logout">Logout</string>
+    <string name="select_medicine">Select Medicine</string>
+
+</resources>

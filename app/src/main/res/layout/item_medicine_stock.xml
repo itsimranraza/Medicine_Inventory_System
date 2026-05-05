@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="4dp"
+    android:backgroundTint="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/textQuantityHeaderStock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stock: 45"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#B00020"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textMedicineNameStock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pantoprazole"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="6dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+                <TextView android:text="Batch No:" android:textStyle="bold" />
+                <TextView android:id="@+id/textBatchNoStock" android:paddingStart="8dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="Manufacturer:" android:textStyle="bold" />
+                <TextView android:id="@+id/textManufacturerStock" android:paddingStart="8dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="Category:" android:textStyle="bold" />
+                <TextView android:id="@+id/textCategoryStock" android:paddingStart="8dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView android:text="Price:" android:textStyle="bold" />
+                <TextView android:id="@+id/textPriceStock" android:paddingStart="8dp" />
+            </TableRow>
+
+
+            <TableRow>
+                <TextView android:text="Expiry Date:" android:textStyle="bold" />
+                <TextView android:id="@+id/textExpiryDateStock" android:paddingStart="8dp" />
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

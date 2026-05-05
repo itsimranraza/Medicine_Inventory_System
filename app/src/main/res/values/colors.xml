@@ -1,0 +1,20 @@
+<resources>
+
+    <color name="primaryColor">#6200EE</color>
+    <color name="primaryDarkColor">#3700B3</color>
+
+
+    <color name="lightBlue50">#E3F2FD</color>
+    <color name="lightGreen50">#E8F5E9</color>
+    <color name="lightRed50">#FFEBEE</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="green800">#2E7D32</color>
+    <color name="green900">#1B5E20</color>
+    <color name="blue800">#1565C0</color>
+    <color name="blue900">#0D47A1</color>
+    <color name="red800">#C62828</color>
+    <color name="red900">#B71C1C</color>
+    <color name="secondaryTextColor">#757575</color>
+</resources>
